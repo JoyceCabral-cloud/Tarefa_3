@@ -21,12 +21,19 @@ def obter_resposta(texto: str) -> str:
     # return f'Desculpa, não entendi a questão! {texto}'
 
     respostas = {
-        ('olá', 'boa tarde', 'bom dia'): 'Olá tudo bem!',
-        'como estás': 'Estou bem, obrigado!',
-        'como te chamas': 'O meu nome é: Bot :)',
-        'tempo': 'Está um dia de sol!',
-        ('bye', 'adeus', 'tchau'): 'Gostei de falar contigo! Até breve...'
-    }
+    ('olá', 'boa tarde', 'bom dia'): 'Olá tudo bem!',
+    'como estás': 'Estou bem, obrigado!',
+    'como te chamas': 'O meu nome é: Bot :)',
+    'tempo': 'Está um dia de sol!',
+    ('que horas são', 'podes dizer as horas', 'qual é a hora agora'): 'Infelizmente, não tenho um relógio comigo, mas posso tentar adivinhar!',
+    ('que dia é hoje', 'qual é a data de hoje', 'podes dizer a data'): 'Hoje é um dia muito especial! Vá ao seu calendário para confirmar. :)',
+    ('gostas de música', 'tens uma música favorita'): 'Gosto de todas as músicas que as pessoas amam! Qual é a sua favorita?',
+    ('bye', 'adeus', 'tchau'): 'Gostei de falar contigo! Até breve...'
+}
+
+      
+   
+
 
     for chave, resposta in respostas.items():
         if isinstance(chave, tuple):
