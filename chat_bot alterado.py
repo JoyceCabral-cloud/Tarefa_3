@@ -29,6 +29,7 @@ def obter_resposta(texto: str) -> str:
     ('que dia é hoje', 'qual é a data de hoje', 'podes dizer a data'): 'Hoje é um dia muito especial! Vá ao seu calendário para confirmar. :)',
     ('gostas de música', 'tens uma música favorita'): 'Gosto de todas as músicas que as pessoas amam! Qual é a sua favorita?',
     ('qual é o melhor filme', 'tens um filme favorito'): 'Eu gosto de ouvir sobre "filmes favoritos". Qual o seu?',
+    ('sabes programar', 'consegues programar'): 'Sim! Sou bom em resolver problemas.'
     ('bye', 'adeus', 'tchau'): 'Gostei de falar contigo! Até breve...'
 }
 
