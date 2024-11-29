@@ -30,6 +30,8 @@ def obter_resposta(texto: str) -> str:
     ('gostas de música', 'tens uma música favorita'): 'Gosto de todas as músicas que as pessoas amam! Qual é a sua favorita?',
     ('qual é o melhor filme', 'tens um filme favorito'): 'Eu gosto de ouvir sobre "filmes favoritos". Qual o seu?',
     ('sabes programar', 'consegues programar'): 'Sim! Sou bom em resolver problemas.'
+    ("Qual é o teu animal favorito?"): "Eu gosto de todos os animais! Mas acho gatos e cães muito populares. E você?"
+
     ('bye', 'adeus', 'tchau'): 'Gostei de falar contigo! Até breve...'
 }
 
